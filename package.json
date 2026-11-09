@@ -4,7 +4,7 @@
   "description": "Eaglercraft LAN Relay",
   "main": "index.js",
   "scripts": {
-    "start": "eaglerrelayjs --port $PORT"
+    "start": "npx eaglerrelayjs --port $PORT"
   },
   "dependencies": {
     "eaglerrelayjs": "github:WebMCDevelopment/EaglerRelayJS"
