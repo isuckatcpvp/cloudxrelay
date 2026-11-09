@@ -1,12 +1,11 @@
 {
-  "name": "eagler-relay",
+  "name": "eaglercraft-relay",
   "version": "1.0.0",
-  "description": "Eaglercraft LAN Relay",
   "main": "index.js",
   "scripts": {
-    "start": "npx eaglerrelayjs --port $PORT"
+    "start": "node index.js"
   },
   "dependencies": {
-    "eaglerrelayjs": "github:WebMCDevelopment/EaglerRelayJS"
+    "ws": "^8.18.0"
   }
 }
